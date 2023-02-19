@@ -22,6 +22,12 @@ const product = [
         image: 'image/aa-1.jpg',
         title: 'Head Phones',
         price: 100,
+    },
+    {
+        id: 4,
+        image: 'image/ee-3.jpg',
+        title: '250D DSLR Camera',
+        price: 230,
     }
 ];
 const categories = [...new Set(product.map((item)=>
