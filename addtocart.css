@@ -159,18 +159,20 @@ select:hover {
   display: flex;
   width: 100%;
   margin-bottom: 30px;
+  padding: 0 0.5rem;
 }
 #root {
   width: 75%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+  padding: 1rem;
 }
 .sidebar {
   width: 25%;
   border-radius: 5px;
   background-color: #eee;
-  padding: 15px;
+  padding: 1rem;
   text-align: center;
 }
 .head {
@@ -317,6 +319,10 @@ button:hover {
   }
 }
 @media screen and (max-width: 490px) {
+  #root {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
   .navbar p {
     font-size: 16px;
   }
@@ -334,10 +340,6 @@ button:hover {
 }
 
 @media screen and (max-width: 390px) {
-  #root {
-    width: 100%;
-    grid-template-columns: repeat(1, 1fr);
-  }
   .dropdown {
     width: 80%;
     text-align: left;
