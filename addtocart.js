@@ -1,33 +1,75 @@
 const product = [
     {
         id: 0,
-        image: 'image/gg-1.jpg',
-        title: 'Z Flip Foldable Mobile',
-        price: 120,
+        image: 'image/aa-1.jpg',
+        title: ' Foldable Mobile',
+        price: 20,
     },
     {
         id: 1,
-        image: 'image/hh-2.jpg',
+        image: 'image/ss-2.jpg',
         title: 'Air Pods Pro',
-        price: 60,
+        price: 20,
     },
     {
         id: 2,
-        image: 'image/ee-3.jpg',
+        image: 'image/dd-3.jpg',
         title: '250D DSLR Camera',
-        price: 230,
+        price: 30,
     },
     {
         id: 3,
-        image: 'image/aa-1.jpg',
+        image: 'image/ff-4.jpg',
         title: 'Head Phones',
-        price: 100,
+        price: 299,
     },
     {
         id: 4,
-        image: 'image/ee-3.jpg',
+        image: 'image/gg-5.jpg',
         title: '250D DSLR Camera',
-        price: 230,
+        price: 330,
+    },
+    {
+        id: 5,
+        image: 'image/hh-6.jpg',
+        title: '250D DSLR Camera',
+        price: 150,
+    },
+    {
+        id: 6,
+        image: 'image/jj-7.jpg',
+        title: '250D DSLR Camera',
+        price: 270,
+    },
+    {
+        id: 7,
+        image: 'image/kk-8.jpg',
+        title: '250D DSLR Camera',
+        price: 260,
+    },
+    {
+        id: 8,
+        image: 'image/ll-9.jpg',
+        title: '250D DSLR Camera',
+        price: 420,
+    },
+    {
+        id: 9,
+        image: 'image/zz-10.jpg',
+        title: '250D DSLR Camera',
+        price: 130,
+    },
+    {
+        id: 10,
+        image: 'image/xx-11.jpg',
+        title: '250D DSLR Camera',
+        price: 410,
+    },
+    {
+        id: 11,
+        image: 'image/cc-12.jpg',
+        title: '250D DSLR Camera',
+        price: 180,
     }
 ];
 const categories = [...new Set(product.map((item)=>
